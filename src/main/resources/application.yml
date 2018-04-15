@@ -1,0 +1,13 @@
+
+spring:
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Seoul
+  datasource:
+    hikari:
+      driverClassName: org.h2.Driver
+      username: sa
+      password: sa
+      jdbc-url: jdbc:h2:~/apps/h2db/search;AUTO_SERVER=TRUE;
